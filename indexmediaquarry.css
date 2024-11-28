@@ -1,0 +1,347 @@
+@media screen and (max-width:1000px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .nav-links .l1{
+        display: none;
+    }
+    .dropdown~a{
+        display: none;
+    }
+    .search~a img{
+        display: none;
+    }
+    .bottom-image {
+        display: block;
+    }
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .bottom-image div button{
+        display: none;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .image{
+        display: none;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right,gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+
+}
+@media screen and (min-width:1100px) and (max-width:1500px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+    .nav-links .l2{
+        display: inline;
+    }
+    .dropdown~a{
+        display: none;
+    }
+    .search~a img{
+        display: none;
+    }
+    .nav-links .l2{
+        display: inline;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+}
+
+
+@media screen and (min-width:800px) and (max-width:1120px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .navbar .search{
+        display: none;
+    }
+    .nav-links .l2{
+        display: inline;
+    }
+    .dropdown~a{
+        display: none;
+    }    
+    .search~a{
+        display: block;
+        margin-top: 25px;
+        margin-right: 55px;
+    }
+    .search~a img{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .image{
+        display: none;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right,gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .navbar .search{
+        display: none;
+    }    
+    .search~a{
+        display: block;
+        margin-top: 25px;
+        margin-right: 55px;
+    }
+    
+    .bottom-image {
+        display: block;
+    }
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .bottom-image div button{
+        display: none;
+    }
+    .search~a img{
+        display: inline;
+        width: 40px;
+        height: 40px;
+    }
+    .nav-links .l2{
+        display: none;
+    }
+    .dropdown~a{
+        display: none;
+    }
+    .bottom-image img{
+        width: 100%;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right,gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:620px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .navbar{
+        width: auto;
+        height: 80px;
+    }
+    .navbar .logo img{
+        width: 80px;
+        height: 70px;
+    }
+    .dropdown~a{
+        display: inline;
+        height: 10px; 
+        width: 10px;
+        padding: 5px;
+    }
+    .dropdown~a img{
+        height: 40px;
+        width: 40px;
+    }
+    .search~a img{
+        display: inline;
+        height: 30px;
+        width: 30px;
+    }    
+    .bottom-image {
+        display: block;
+    }
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .bottom-image div button{
+        display: none;
+    }
+    .search~a img{
+        display: inline;
+    }
+    .dropdown{
+        display: none;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right,gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .contact-form .total .form form{
+        justify-content: center;
+        width: 350px;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:430px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .navbar{
+        width: auto;
+        height: 60px;
+    }
+    .navbar .logo img{
+        width: 50px;
+        height: 40px;
+    }
+    .bottom-image {
+        display: block;
+    }
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .bottom-image div button{
+        display: none;
+    }
+    .dropdown~a{
+        display: inline;
+    }
+    .dropdown~a img{
+        display: inline;
+        height: 30px;
+        width: 30px;
+    }
+    .search~a img{
+        display: inline;
+        height: 30px;
+        width: 30px;
+    }
+    .dropdown{
+        display: none;
+    }
+    .bottom-image img{
+        width: 100%;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right, gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .contact-form .total .form form{
+        justify-content: center;
+        width: 300px;
+    }
+    .footer footer div{
+        text-align: center;
+        
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:388px){
+    body{
+        margin: 0;
+        border: 0;
+    }
+    .navbar{
+        width: auto;
+        height: 60px;
+    }
+    .navbar .logo img{
+        width: 50px;
+        height: 40px;
+    }
+    .nav-links{
+        width: 90px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .search~a img{
+        display: inline;
+        width: 25px;
+        height: 25px;
+        margin-right: 0px;
+    }
+    .dropdown~a{
+        display: inline;
+    }
+    .dropdown~a img{
+        display: inline;
+        height: 25px;
+        width: 25px;
+        margin-top: 0%;
+    }
+    .dropdown{
+        display: none;
+    }
+    
+    .bottom-image {
+        display: block;
+    }
+    .bottom-image img{
+        width: 100%;
+        margin: 0px;
+    }
+    .bottom-image div button{
+        display: none;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .contact-form .total{
+        background:linear-gradient(to right, gray, rgb(206, 206, 206));
+        justify-content: center;
+    }
+    .contact-form .total .form form{
+        justify-content: center;
+        width: auto;
+    }
+    .footer footer div{
+        text-align: center;
+        
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}

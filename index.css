@@ -1,0 +1,461 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+body{
+    margin: 0;
+    border: 0;
+}
+.navbar{
+    height: 80px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+.navbar>.logo{
+    margin: 5px;
+}
+.navbar>.logo img{
+    height: 75px;
+    width: 90px;
+    align-content: center;    
+    border-radius: 5px;
+}
+
+.nav-links{
+    height: 50px;
+    margin: 20px;
+    width: 700px;
+}
+
+.navbar span{
+    display: none;
+}
+
+.nav-links>a,.dropdown{
+    margin-right: 35px;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(88, 76, 255);
+    text-shadow: 0px 0px 1px blue;
+    /* margin-right: 60px; */
+}
+.dropbtn{
+    width: 130px;
+    font-size: 22px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* .nav-links ul li{
+    padding: 10px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    border-style: none;
+    color: rgb(88, 76, 255);
+    text-shadow: 0px 0px 1px blue;
+}
+
+.nav-links ul li select{
+    width: 100px;
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    font-size: 25px;
+    border-style: none;
+    color: rgb(88, 76, 255);
+    text-shadow: 0px 0px 1px blue;
+}
+
+.nav-links ul li a:hover{
+    text-decoration: underline;
+} */
+
+
+.dropbtn {
+    background-color: rgb(240, 240, 240);
+    color: rgb(88, 76, 255);
+    text-shadow: 0px 0px 1px blue;
+    padding: 14px;
+    /* font-size: 16px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(240, 240, 240);
+  }
+
+.search{
+    margin-right: 10px;
+}
+.search input{
+    width: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    outline: 2px solid rgb(206, 206, 206);
+    display: inline-block;
+}
+.search img{
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.bottom-image img{
+    width: 45%;
+    margin: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.bottom-image{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    /* background-color: rgb(241, 241, 241); */
+}
+
+.bottom-image div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.bottom-image div h1{
+    margin: 0;
+}
+
+.bottom-image div p{
+    margin: 30px 0px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.bottom-image button{
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: rgb(74, 236, 74);
+    border: 1px solid green;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.special-delivery{
+    margin-top: 80px;
+}
+
+.special-delivery h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 1px 0px 3px darkblue;
+}
+
+.delivery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.delivery .delivery-box{
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.fresh-products{
+    margin-top: 80px;
+}
+
+.fresh-products h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 1px 0px 3px darkblue;
+    margin-bottom: 50px;
+}
+
+
+
+/* .shortcut-button{
+    border: 1px solid rgb(184, 184, 184);
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 20px;
+    margin: 20px;
+    background-color: #dfdfdf;
+} */
+
+
+.fish-and-seafoods{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fish-and-seafoods div{
+    width: 250px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.fish-and-seafoods div:hover{
+    box-shadow: 1px 1px 10px gray;
+    background-color: #fafafa;
+}
+
+.fish-and-seafoods div img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+}
+.fish-and-seafoods div p{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.fish-and-seafoods div span{
+    font-size: 20px;
+}
+
+.fish-and-seafoods div h1{
+    margin-left: 16px;
+    font-weight: normal;
+}
+
+.fish-and-seafoods div h1 del{
+    color: gray;
+}
+
+.fish-and-seafoods div select{
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+.fish-and-seafoods div button{
+    margin: 12px;
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(32, 226, 32);
+    border: 1px solid rgb(32, 226, 32);
+}
+
+.fish-and-seafoods div button:hover{
+    box-shadow: 0px 0px 10px green;
+    border: 1px solid lawngreen;
+    background-color: green;
+    color: #fff;
+    padding: 12px;
+}
+
+.customer-reviews{
+    display: block;
+}
+
+.customer-reviews>h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 1px 0px 3px darkblue;
+}
+
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review div{
+    width: 250px;
+    height:580px;
+    margin: 25px;
+    border-radius: 10px;
+    text-align: start;
+    background-color: #fbfbfb;
+    border: 1px solid #e7e7e7;
+}
+
+.review div:hover{
+    box-shadow: 0px 0px 5px gainsboro,0px 0px 10px gray;
+}
+
+.review div p{
+    font-size: 20px;
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.review div h1{
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.contact-form{
+    display: block;
+}
+
+.contact-form h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    color: blue;
+    text-shadow: 1px 0px 3px darkblue;
+}
+
+.contact-form .total{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-form .image{
+    float: right;
+}
+.contact-form .total{
+    background:linear-gradient(to right,gray, rgb(255, 255, 255));
+    justify-content: center;
+}
+
+.contact-form .total .form form{
+    width: 450px;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.contact-form .total .form form input,.contact-form .total .form form label{
+    display: block;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.contact-form .total .form form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #dfdfdf;
+}
+
+.contact-form .total .form form textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 15px 15px 15px;
+    resize: vertical;
+    border-radius: 5px;
+    border:1px solid #dfdfdf;
+}
+
+.contact-form .total .form form textarea:hover,.contact-form .total .form form input:hover{
+    border: 2px solid gray;
+}
+
+.contact-form .total .form form .button{
+    width: 150px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(32, 226, 32);
+    border: 1px solid rgb(32, 226, 32);
+}
+
+.contact-form .total .form form .button:hover{
+    box-shadow: 0px 0px 10px green;
+    border: 1px solid lawngreen;
+    background-color: green;
+    color: #fff;
+}
+
+.contact-form .image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #e7e7e7;
+}
+.footer footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer footer div{
+    margin: 10px 20px;
+}
+
+.footer footer div h1 {
+    margin: 20px 10px 10px 20px;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.footer footer div p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer footer .column5 p{
+    display: inline;
+}
+
+.footer .column6{
+    padding: 10px;
+}
+
+.footer .column6 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

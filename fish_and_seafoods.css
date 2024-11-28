@@ -1,0 +1,182 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    text-shadow: 1px 0px 3px darkblue;
+}
+
+.head .nav{
+    /* background-color: #dddddd; */
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.head .nav ul li:hover{
+    /* box-shadow: 0px 0px 5px rgb(184, 184, 184),0px 0px 15px gray; */
+    text-decoration: underline;
+    color: blue;
+    font-size: 27px;
+}
+
+.head .nav ul{
+    margin: 0;
+    padding: 0;
+}
+.head .nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    margin: 0px 20px;
+
+}
+.head .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.head .nav ul li a:hover{
+    color: rgb(0, 60, 255);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.container div{
+    width: 250px;
+    height: auto;
+    border: 1px solid gainsboro;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.container div:hover{
+    box-shadow: 1px 1px 10px gray;
+    background-color: #fafafa;
+}
+
+.container div img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container div h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.container div span{
+    font-size: 20px;
+}
+
+.container div p{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.container div h1{
+    margin-left: 16px;
+    font-weight: normal;
+}
+.container  div h1 del{
+    color: gray;
+}
+
+.container  div select{
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+.container div button{
+    margin: 12px;
+    padding: 10px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(32, 226, 32);
+    border: 1px solid rgb(32, 226, 32);
+}
+
+.container div button:hover{
+    box-shadow: 0px 0px 10px green;
+    border: 1px solid lawngreen;
+    background-color: green;
+    color: #fff;
+    padding: 12px;
+}
+
+.fish-and-seafoods div{
+    height: auto;
+}
+
+.footer{
+    background-color: #e7e7e7;
+}
+.footer footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer footer div{
+    margin: 10px 20px;
+}
+
+.footer footer div h1 {
+    margin: 20px 10px 10px 20px;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.footer footer div p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer footer .column5 p{
+    display: inline;
+}
+
+.footer .column6{
+    padding: 10px;
+}
+
+.footer .column6 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1500px) {
+    .nav ul li a{
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .fish-and-seafoods div{
+        height: auto;
+    }
+    .footer footer div{
+        text-align: center;
+    }
+    .footer footer{
+        justify-content: center;
+    }
+}
